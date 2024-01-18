@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pdfchat"
+version = "0.1.0"
+description = "Chating with PDFs"
+authors = ["Lumen Yang <lumen.yang@lumeny.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pypdf = "^3.17.4"
+langchain = "^0.1.1"
+chromadb = "^0.4.22"
+
+[tool.poetry.group.dev.dependencies]
+pyright = "^1.1.347"
+black = "^23.12.1"
+ruff = "^0.1.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
